@@ -1,0 +1,121 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.th {
+    background-color: #a2c8e1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputGroup {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    width: 100px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 200px;
+    transition: border-color 0.3s;
+    text-align: left;
+}
+
+input:focus {
+    border-color: #a2c8e1;
+    outline: none;
+    box-shadow: 0 0 5px rgba(117, 212, 212, 0.5);
+}
+
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.button.save {
+    background-color: #28a745;
+}
+
+.button.save:hover {
+    background-color: #218838;
+}
+
+.button.delete {
+    background-color: #dc3545;
+}
+
+.button.delete:hover {
+    background-color: #c82333;
+}
+
+.button.cancel {
+    background-color: #6c757d;
+}
+
+.button.cancel:hover {
+    background-color: #5a6268;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}

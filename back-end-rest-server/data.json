@@ -1,0 +1,28 @@
+{
+  "customers": [
+    {
+      "name": "Mary Jacksonn",
+      "email": "maryj@abc.com",
+      "password": "maryj",
+      "id": 0
+    },
+    {
+      "id": 1,
+      "name": "Karen Addams",
+      "email": "karena@abc.com",
+      "password": "karena"
+    },
+    {
+      "name": "Scott Ramseys",
+      "email": "scottr@abc.com",
+      "password": "scottr",
+      "id": 2
+    },
+    {
+      "name": "grtg",
+      "email": "grtgrt@gmail.com",
+      "password": "erf",
+      "id": 3
+    }
+  ]
+}
